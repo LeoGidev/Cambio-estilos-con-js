@@ -25,6 +25,7 @@
     color:white;
     width: 80px;
     padding: 5px;
+    margin: 4px;
 }
   #menuBtn:hover{
     width:82px;
@@ -38,6 +39,7 @@
     width: 50px;
     background-color: #33333300;
     transition: 0.3s;
+    
   }
   
   #sideMenu.show {
