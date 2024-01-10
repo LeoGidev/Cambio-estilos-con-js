@@ -1,0 +1,86 @@
+/*estilos de las opciones de estilo deweb*/
+  
+.contenido{
+    transition: background-color 1s ease;
+   background-color: #ffffff;
+   margin-top: 30px;
+   color:#1a1919;
+   border-radius: 2px; 
+   overflow: hidden !important;
+}
+.contenido:hover{
+    background-color: #eeeeeee4;
+    transition: background-color 1s ease;
+}
+#menuBtn {
+    position: fixed;
+    top: 200px;
+    right: 0px;
+    z-index: 1000;
+    background-color: #000000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+#menuBtn p{
+    color:white;
+    width: 80px;
+    padding: 5px;
+}
+  #menuBtn:hover{
+    width:82px;
+    cursor: pointer;
+  }
+  
+  #sideMenu {
+    position: fixed;
+    top: 250;
+    right: -200px;
+    width: 50px;
+    background-color: #33333300;
+    transition: 0.3s;
+  }
+  
+  #sideMenu.show {
+    right: 0;
+  }
+  
+  .option {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+
+  
+  .contenido.dark .card{
+    background-color: #303030;
+    color: #fff;
+    transition: background-color 1s ease;
+  }
+  
+ 
+  
+  .contenido.red .card{
+    background-color: rgb(92, 46, 46);
+    color: #fff;
+    transition: background-color 1s ease;
+  }
+  
+
+  
+  .contenido.blue .card {
+    background-color: rgb(67, 82, 200);
+    color: #ffffff;
+    transition: background-color 1s ease;
+  }
+ 
+  
+  .contenido.light .card {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 1s ease;
+  }
+  
